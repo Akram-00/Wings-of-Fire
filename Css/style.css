@@ -130,7 +130,7 @@ header::before {
 
 #about::before {
     content: "";
-    height: 345px;
+    height: 100%;
     position: absolute;
     background: url('../images/bgabout.png') no-repeat center center/cover;
     /* height: 100%; */
@@ -258,4 +258,23 @@ header::before {
     background-color: #141462;
     margin: 0px -8px -10px -10px;
 
+}
+
+.btn {
+    width: 7rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+    font-weight: bold;
+    background-color: #2929b5;
+    color: white;
+    font-size: medium;
+    margin: 10px auto;
+}
+.btn:hover{
+    background-color: #141462;
+}
+.btn:active{
+    background-color: yellow;
+    color: black;
 }
